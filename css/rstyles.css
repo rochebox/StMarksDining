@@ -1,0 +1,378 @@
+/* Restaurant Styles */
+/* in CSS */
+
+
+body{
+	font-family: 'Questrial', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+#pageTop {
+
+	width: 100%;
+	height: 160px;
+	background-color: #4262f4;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	margin:0;
+	padding-top: 5%;
+}
+
+#menuBar {
+	width: 100%;
+	height: 50px;
+	background-color: #050a38;
+	margin: 0;
+	padding-left: 20%;
+
+
+}
+
+.sideBar {
+	float: left;
+	width: 20%;
+	height: 1200px;
+	padding-top: 7%;
+	background-color: #5d5d5e;
+	background-image: url("../images/blueberryNarrow.jpg");
+
+
+}
+
+.mainDisplay {
+
+	float: left;
+	width: 79%;
+	height: 200px;
+	background-color: white;
+	margin:0;
+
+
+
+}
+
+
+#mainBreakfastDisplay{
+	background: #ba88a6 url("../images/breakfastBackground.jpg");
+	height: 1300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+
+#mainLunchDisplay{
+	background: #ba88a6 url("../images/justBlueWood.jpg");
+	height: 1300px;
+	background-repeat: repeat-y;
+	background-size: contain;
+	padding:0;
+	
+}
+
+#lunchDivMe {
+	margin:0;
+	padding:0;
+	background-image: url("../images/lunchBack.jpg");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+
+
+.center{
+	text-align: center;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.mainTextColor{
+	color: #4262f4;
+}
+
+.menuItem {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-right: 1px;
+	float: left;
+	width: 19%;
+	color: white;
+	font-size: 1.5em;
+	border: 2px solid #5061e5;
+
+
+}
+
+
+
+a:link {
+	color: white;
+    text-decoration: none;
+}
+
+a:visited {
+	color: white;
+    text-decoration: none;
+}
+
+a:hover {
+	
+	font-size: 15px;
+	
+   /* text-decoration: none; */
+
+
+}
+
+a:active {
+	color: white;
+    text-decoration: none;
+}
+
+.centerImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textMargin{
+	margin-left: 5%;
+	margin-left: 4%;
+}
+
+.textFont{
+	color: #050a38;
+	font-size: 18pt;
+
+}
+
+.testimonialBox{
+	font-family: 'Luckiest Guy', cursive;
+	background-color: #4262f4;
+	margin-top:15%;
+	padding: 7%;
+	padding-top:10%;
+	margin-left:auto;
+	margin-right:auto;
+	width:72%;
+	color: salmon;
+	font-size:20pt;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	border-radius: 15px 50px;
+	border: 2px solid white;
+}
+
+.bigQuotes {
+	color:yellow;
+	font-size: 30pt;
+}
+
+.testimonialNameBox {
+	font-family: 'Questrial', sans-serif;
+	color: deepPink;
+	font-size: 14pt;
+}
+
+.testimonialNameBox span{ 
+
+ font-style: italic;
+}
+
+/* this is general styling for all lists */
+.centeredList {
+
+	
+	margin-left:auto;
+	margin-right: auto;
+	
+	width: 70%;
+}
+
+/* this is styling for a specific list... the breakfast list */
+
+#breakfastList {
+
+	padding-top: 20%;
+	background: black url("../images/breakfastMenuBackground.png");
+	background-repeat: no-repeat;
+	background-size:contain; /* makes sure the image is there */ 
+	height: 750px;                                            
+	border: 1px solid blue;
+
+
+}
+
+
+#breakfastList li{
+	font-family: 'Permanent Marker', cursive;
+	/* color: dodgerblue; */
+	/* color: #4262f4;  this is also blue */
+	color: #f9f8f4;
+	font-size: 2.0em;
+	padding-top: 2%;
+	margin: 0;
+	margin-left: 20%;
+	text-shadow: 2px 2px salmon;
+	
+}
+
+#breakfastList ol li{
+	font-size: 0.75em;
+	/* color: #4262f4; not using */
+	color: #f9f8f4;
+	padding: 0;
+	margin: 0;
+	/* margin-left: 20%; */
+	
+}
+
+#breakfastList li ol li a:link{
+    text-decoration: none;
+}
+
+
+#breakfastList li ol li a:visited {	
+    text-decoration: none;
+}
+
+#breakfastList li ol li a:hover {	
+	font-size: 0.80em;
+	text-decoration: none; 
+}
+
+#breakfastList li ol li a:active {
+    text-decoration: none;
+}
+
+#lunchList li{
+	
+	font-size: 3.5em;
+	/* color: #4262f4; not using */
+	color: #f9f8f4;
+	padding: 0;
+	margin: 0; 
+	font-weight: bolder;                                     
+}
+
+#marginLeft1 {
+	margin-left: 400px;
+
+}
+
+.paddingLeft1 {
+	padding-left: 400px;
+
+}
+
+.paddingLeft2 {
+	padding-left: 40px;
+
+}
+
+
+
+#lunchList ol li{
+	font-size: .5em;
+	/* color: #4262f4; */
+	color: #f9f8f4; 
+	padding: 0;
+	margin: 0;
+	/* margin-left: 20%; */
+	
+}
+
+#lunchList li ol li a:link{
+    text-decoration: none;
+}
+
+
+#lunchList li ol li a:visited {	
+    text-decoration: none;
+}
+
+#lunchList li ol li a:hover {	
+	font-size: 0.80em;
+	text-decoration: none; 
+}
+
+#lunchList li ol li a:active {
+    text-decoration: none;
+}
+
+
+.centerHeading{
+	text-align: center;
+	font-size: 4em;
+}
+
+#breakfastHeadingFont{
+	font-family: 'Londrina Solid', cursive;
+	color: #050a38;
+	text-shadow: 2px 2px #4262f4;
+
+}
+
+#lunchHeadingFont{
+	font-family: 'Londrina Solid', cursive;
+	color: #050a38;
+	text-shadow: 2px 2px #4262f4;
+	margin-top: 0;
+	padding-top: 40px;
+
+}
+
+
+#GUBAlist, #GUBAlist li {
+	margin: 0;
+	padding: 0;
+}
+
+#GUBAlist li {
+	list-style: none;
+}
+
+#GUBAlist .li1 {
+	margin-left: 0.5em;
+}
+
+#GUBAlist .li2 {
+	margin-left: 1em;
+}
+
+#GUBAlist .li3 {
+	margin-left: 1.5em;
+}
+
+#GUBAlist .li4 {
+	margin-left: 2em;
+}
+
+#GUBAlist .li5 {
+	margin-left: 2.5em;
+}
+
+#GUBAlist .li6 {
+	margin-left: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
